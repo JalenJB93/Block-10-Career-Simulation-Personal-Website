@@ -1,0 +1,59 @@
+.container h2 {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  unicode-bidi: isolate;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: none;
+}
+h1 {
+  color: red;
+  font-family: "Times New Roman";
+  float: right;
+  padding-left: 1rem;
+  background-color: grey;
+}
+h2 {
+  color: red;
+  font-family: "Times New Roman";
+  text-align: center;
+  background-color: grey;
+}
+
+body {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: blue;
+  padding-bottom: 5rem;
+  align-items: center;
+  background-color: black;
+  font-size: large;
+}
+
+.title {
+  float: inline-start;
+  color: red;
+}
+
+.footer {
+  align-content: baseline;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+}
+
+h3 {
+  flex-direction: inline-start;
+}
